@@ -4,7 +4,7 @@
 **Curso:** Engenharia da Computação  
 **Disciplina:** Arquitetura de Computadores  
 **Alunos:**  
-- Nome do Aluno 1  
+- Antonio Neto de Moura Melo - 2022003488 
 - Nome do Aluno 2  
 - Nome do Aluno 3  
 - Nome do Aluno 4  
