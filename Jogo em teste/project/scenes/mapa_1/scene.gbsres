@@ -1,0 +1,119 @@
+{
+  "_resourceType": "scene",
+  "id": "86009898-c44f-45c9-8d11-4313cd4c1e98",
+  "_index": 0,
+  "name": "Mapa 1",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 160,
+  "y": 136,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right",
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "864fb9e0-cb5e-4184-a169-9b300eb43139"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "9b4b32e9-e421-4fc7-bd8e-d749467b6e91",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "horizontal",
+              "useCollisions": true
+            },
+            "id": "afb82c72-9982-4452-a39f-a125bfc36f34"
+          }
+        ]
+      },
+      "id": "796288ef-ceb7-4d03-941a-8dc092ebad1a"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "9b4b32e9-e421-4fc7-bd8e-d749467b6e91",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "horizontal",
+              "useCollisions": true
+            },
+            "id": "58254e02-0dc2-4a49-8a2d-01386ddbaa01"
+          }
+        ]
+      },
+      "id": "aede2ced-5d8d-4510-880c-bc530e0c0508"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "",
+  "playerSpriteSheetId": "efbcc10d-73de-4858-ba22-d77ee90bb8bc",
+  "autoFadeEventCollapse": true
+}
