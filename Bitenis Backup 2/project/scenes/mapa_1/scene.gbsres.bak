@@ -3,7 +3,7 @@
   "id": "86009898-c44f-45c9-8d11-4313cd4c1e98",
   "_index": 0,
   "name": "Mapa 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "0b124c08-8534-4bce-bbb9-f8b753ce282f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,8 +11,8 @@
   "paletteIds": [
     "dmg",
     "",
-    "default-bg-2",
-    "",
+    "19bf1118-3de1-4559-8aca-111a1f7aeb11",
+    "default-bg-1",
     "",
     "dmg",
     "",
@@ -21,7 +21,7 @@
   "spritePaletteIds": [
     ""
   ],
-  "collisions": "002a+0f!00103+0f!0039+",
+  "collisions": "0016+0f!0012b+0f!0025+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 104,

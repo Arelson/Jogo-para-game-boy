@@ -11,8 +11,8 @@
   "paletteIds": [
     "dmg",
     "",
-    "default-bg-2",
-    "",
+    "19bf1118-3de1-4559-8aca-111a1f7aeb11",
+    "default-bg-1",
     "",
     "dmg",
     "",
@@ -21,7 +21,7 @@
   "spritePaletteIds": [
     ""
   ],
-  "collisions": "002a+0f!00103+0f!0039+",
+  "collisions": "0016+0f!0012b+0f!0025+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 104,
@@ -38,7 +38,7 @@
         "variable": "0",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 0
         },
         "__collapse": false
       },
@@ -50,7 +50,7 @@
         "variable": "1",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 0
         },
         "__collapse": false
       },

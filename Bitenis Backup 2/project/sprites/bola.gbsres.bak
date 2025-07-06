@@ -24,7 +24,7 @@
                 {
                   "id": "a8466608-6f90-4092-8088-c9427525c6f4",
                   "x": 0,
-                  "y": 4,
+                  "y": 0,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -74,7 +74,7 @@
                 {
                   "id": "c6b44cb1-ccd3-4b06-a7f7-116300701311",
                   "x": 0,
-                  "y": 4,
+                  "y": 0,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -92,7 +92,7 @@
                 {
                   "id": "71c8dbfa-b552-49d6-bbcf-f9279f361b2a",
                   "x": 0,
-                  "y": 4,
+                  "y": 0,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -110,7 +110,7 @@
                 {
                   "id": "3b9776ed-80c9-487f-9106-b012d567708e",
                   "x": 0,
-                  "y": 4,
+                  "y": 0,
                   "sliceX": 16,
                   "sliceY": -8,
                   "palette": 0,
@@ -128,7 +128,7 @@
                 {
                   "id": "48a975f2-e0fe-4567-9867-d55562b18e72",
                   "x": 0,
-                  "y": 4,
+                  "y": 0,
                   "sliceX": 24,
                   "sliceY": -8,
                   "palette": 0,
@@ -176,7 +176,7 @@
   "canvasWidth": 8,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 4,
+  "boundsY": 0,
   "boundsWidth": 8,
   "boundsHeight": 8,
   "animSpeed": 15

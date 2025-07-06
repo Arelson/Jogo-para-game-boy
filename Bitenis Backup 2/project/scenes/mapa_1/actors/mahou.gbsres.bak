@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 63,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -77,26 +77,113 @@
             "id": "a5227f2f-f3c1-49e4-8e3f-2557912faaae"
           },
           {
-            "command": "EVENT_ACTOR_MOVE_TO",
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "L0",
+              "operation": "set",
+              "other": "rnd",
+              "vectorY": "L0",
+              "value": "0",
+              "minValue": "0",
+              "maxValue": 100,
+              "clamp": false,
+              "__collapse": false
+            },
+            "id": "c9bfb548-8de7-43f0-a475-255afce66496"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 50
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "div",
+                      "valueA": {
+                        "type": "sub",
+                        "valueA": {
+                          "type": "property",
+                          "target": "9b4b32e9-e421-4fc7-bd8e-d749467b6e91",
+                          "property": "ypos"
+                        },
+                        "valueB": {
+                          "type": "property",
+                          "target": "$self$",
+                          "property": "ypos"
+                        }
+                      },
+                      "valueB": {
+                        "type": "abs",
+                        "value": {
+                          "type": "sub",
+                          "valueA": {
+                            "type": "property",
+                            "target": "9b4b32e9-e421-4fc7-bd8e-d749467b6e91",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "property",
+                            "target": "$self$",
+                            "property": "ypos"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "id": "f4dc9ba6-3fda-4dce-b8bc-d6c40defa0b5"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "L0",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "0",
+                    "minValue": -1,
+                    "maxValue": 1,
+                    "clamp": false
+                  },
+                  "id": "eecd1c52-e485-469b-94f1-3c427b052352"
+                }
+              ]
+            },
+            "id": "e250b497-df76-4338-959a-9adbca83436b"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
               "x": {
-                "type": "property",
-                "target": "$self$",
-                "property": "xpos"
+                "type": "number",
+                "value": 0
               },
               "y": {
-                "type": "rnd",
-                "value": {
-                  "type": "property",
-                  "target": "$self$",
-                  "property": "xpos"
-                }
+                "type": "variable",
+                "value": "L0"
               },
               "moveType": "vertical",
               "useCollisions": false
             },
-            "id": "5da9fa0e-8eea-4d41-b5f9-571971d74fbc"
+            "id": "3a4a372e-9e7c-416c-8712-e560ade04f59"
           }
         ]
       },
@@ -169,11 +256,11 @@
                     "actorId": "9b4b32e9-e421-4fc7-bd8e-d749467b6e91",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 10
                     },
                     "y": {
                       "type": "number",
-                      "value": 9
+                      "value": 8
                     }
                   },
                   "id": "7b7c7e23-ab95-4cf8-b81f-268d0c919020"
@@ -209,7 +296,7 @@
                   },
                   "valueB": {
                     "type": "number",
-                    "value": 15
+                    "value": 14
                   }
                 }
               },
