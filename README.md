@@ -4,11 +4,11 @@
 **Curso:** Engenharia da Computação  
 **Disciplina:** Arquitetura de Computadores  
 **Alunos:**  
-- Antonio Neto de Moura Melo - 2022003488 
-- Nome do Aluno 2  
-- Nome do Aluno 3  
-- Nome do Aluno 4  
-- Nome do Aluno 5  
+- ANTONIO NETO DE MOURA MELO - 2022003488 
+- ARLISON GASPAR DE OLIVEIRA - 2022017213
+- EMANOEL DE JESUS NUNES JUNIOR - 2022009249
+- LUCAS ARAUJO DOMINICI - 2022002945
+- MATEUS DUTRA VALE - 2021018495  
 
 **Professor:** Luiz Henrique Neves Rodrigues  
 
