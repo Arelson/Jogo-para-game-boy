@@ -86,9 +86,12 @@
                 "property": "xpos"
               },
               "y": {
-                "type": "property",
-                "target": "9b4b32e9-e421-4fc7-bd8e-d749467b6e91",
-                "property": "ypos"
+                "type": "rnd",
+                "value": {
+                  "type": "property",
+                  "target": "$self$",
+                  "property": "xpos"
+                }
               },
               "moveType": "vertical",
               "useCollisions": false

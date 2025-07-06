@@ -2,6 +2,16 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "VBolaX",
+      "symbol": "var_vbolax_1"
+    },
+    {
+      "id": "1",
+      "name": "VBolaY",
+      "symbol": "var_vbolay_2"
+    },
+    {
       "id": "86009898-c44f-45c9-8d11-4313cd4c1e98__L0",
       "name": "VBolaY",
       "symbol": "var_vbolay_0",
@@ -32,16 +42,6 @@
       "id": "5de59adc-ff8e-45d7-9200-16389bb31bb9__L0",
       "name": "VBolaY",
       "symbol": "var_vbolay"
-    },
-    {
-      "id": "0",
-      "name": "VBolaX",
-      "symbol": "var_vbolax_1"
-    },
-    {
-      "id": "1",
-      "name": "VBolaY",
-      "symbol": "var_vbolay_2"
     }
   ]
 }
