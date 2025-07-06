@@ -23,6 +23,7 @@
             }
         },
         "rede_rgb.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 6,
             "scaleInEditor": 1
         }
@@ -36,16 +37,15 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "quadra_final.tmx",
         "Textures-16.tsx",
         "rede_rgb.tsx",
         "quadra_final.tmx"
     ],
     "project": "quadra.tiled-project",
     "recentFiles": [
-        "quadra_final.tmx",
+        "Textures-16.tsx",
         "rede_rgb.tsx",
-        "Textures-16.tsx"
+        "quadra_final.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
