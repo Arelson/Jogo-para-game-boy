@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1423ec41-8b63-41b2-ad20-1884532ed650",
+  "name": "rede_rgb",
+  "symbol": "bg_rede_rgb",
+  "width": 6,
+  "height": 2,
+  "imageWidth": 48,
+  "imageHeight": 16,
+  "filename": "rede_rgb.png",
+  "tileColors": "",
+  "autoColor": false
+}
