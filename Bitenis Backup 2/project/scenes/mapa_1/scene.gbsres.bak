@@ -28,6 +28,11 @@
   "y": 200,
   "script": [
     {
+      "command": "EVENT_RNG_SEED",
+      "args": {},
+      "id": "c631ddbe-5496-49cc-b828-749e5f166ff5"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "0",
