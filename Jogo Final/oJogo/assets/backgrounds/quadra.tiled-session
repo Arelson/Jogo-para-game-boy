@@ -1,0 +1,55 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "quadra_final.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Todos os Ficheiros (*)",
+    "fileStates": {
+        "Textures-16.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 6,
+            "scaleInEditor": 1
+        },
+        "quadra_final.tmx": {
+            "scale": 3.9425000000000003,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.02536461636016,
+                "y": 71.90868738110336
+            }
+        },
+        "rede_rgb.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 6,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/cactu/PROJETOS/Jogo-para-game-boy/Bitenis Backup 2/assets/backgrounds",
+    "last.imagePath": "C:/Users/cactu/PROJETOS/Jogo-para-game-boy/Bitenis Backup 2/assets/backgrounds",
+    "map.height": 18,
+    "map.lastUsedExportFilter": "Todos os Ficheiros (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+        "Textures-16.tsx",
+        "rede_rgb.tsx",
+        "quadra_final.tmx"
+    ],
+    "project": "quadra.tiled-project",
+    "recentFiles": [
+        "Textures-16.tsx",
+        "rede_rgb.tsx",
+        "quadra_final.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

@@ -1,0 +1,93 @@
+{
+  "_resourceType": "scene",
+  "id": "bae06c56-7c61-4adf-a424-b9611b3b2943",
+  "_index": 2,
+  "name": "Logo",
+  "backgroundId": "5c3aaf27-9904-47c9-ba53-f974882eefff",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-sprite"
+  ],
+  "spritePaletteIds": [
+    "default-bg-4"
+  ],
+  "collisions": "00168+",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_3",
+  "x": 96,
+  "y": 72,
+  "script": [
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": false
+      },
+      "id": "63a7599b-2738-42d8-8749-8ba9dffa5e73"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "ee92a7e3-12d7-4299-ba50-bcd73de5cca3"
+      },
+      "id": "554cf4f1-4d2e-4d5c-a0c9-d2f4a660404b"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "87473dcc-6c13-4b63-8030-a472d0b7ce9e"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 18,
+        "speed": 0,
+        "__collapse": false
+      },
+      "id": "e1013b64-7d23-4d4e-a3bf-68e964e61f3e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1.5,
+        "frames": 30
+      },
+      "id": "0050f2ff-9f7d-4e88-9826-a1291531c818"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": 4
+      },
+      "id": "25c53d5f-8797-4697-a5ea-134dce00f85b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1ca2f632-3f51-47ba-9155-ffbe97f38aee",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4e14d374-4c3d-4565-b6f7-3947991fc325"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

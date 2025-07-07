@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0b124c08-8534-4bce-bbb9-f8b753ce282f",
+  "name": "quadra_final",
+  "symbol": "bg_quadra_final",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "quadra_final.png",
+  "tileColors": "",
+  "autoColor": false
+}

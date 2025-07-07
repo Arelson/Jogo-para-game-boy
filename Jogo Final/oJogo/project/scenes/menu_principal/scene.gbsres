@@ -1,0 +1,130 @@
+{
+  "_resourceType": "scene",
+  "id": "1ca2f632-3f51-47ba-9155-ffbe97f38aee",
+  "_index": 1,
+  "name": "Menu Principal",
+  "backgroundId": "2052eff7-0cde-4499-aded-074c2fad1349",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 296,
+  "y": 72,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4b880d9b-3c54-4728-9bd3-cce484292778"
+      },
+      "id": "4c6cb332-4612-49fe-b47b-b09db95847cb"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "69b02fdd-10ba-47ca-bcf4-4040ad749f52"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      },
+      "id": "8e700d3b-0d52-4fd8-9b36-6770ffbf7644"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Vamos lá",
+              "falseText": "Desistir"
+            },
+            "id": "70569dfe-0f24-4e10-9db5-0714fa738f2c"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "86009898-c44f-45c9-8d11-4313cd4c1e98",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2",
+                    "__collapse": false
+                  },
+                  "id": "95bb8e8c-f960-4967-a398-95909c7204ba"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Não desista!",
+                      "O mundo precisa \nde você garoto!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": false,
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "02fc0f6e-462a-4151-9f3c-375c74836cd1"
+                }
+              ]
+            },
+            "id": "6ac3c3a6-7412-41a4-aa3b-4336f67cfab6"
+          }
+        ]
+      },
+      "id": "d33fd498-0ccd-43d7-8ef5-8c11d33b3c02"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

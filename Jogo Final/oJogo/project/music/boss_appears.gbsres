@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "aead4b73-fe3f-4453-b6ca-0ec680bada51",
+  "name": "boss_appears",
+  "symbol": "song_boss_appears",
+  "filename": "boss_appears.uge",
+  "settings": {},
+  "type": "uge"
+}
