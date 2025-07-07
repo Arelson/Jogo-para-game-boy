@@ -9,19 +9,19 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [
-    "dmg",
+    "default-bg-3",
     "",
     "19bf1118-3de1-4559-8aca-111a1f7aeb11",
     "default-bg-1",
     "",
     "dmg",
     "",
-    "dmg"
+    "9d2dc5ad-3440-4770-ab54-04f125925f2b"
   ],
   "spritePaletteIds": [
     ""
   ],
-  "collisions": "0016+0f!0012b+0f!0025+",
+  "collisions": "002a+0f!00103+0f!0039+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 104,
@@ -38,7 +38,7 @@
         "variable": "0",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 1
         },
         "__collapse": false
       },
@@ -50,7 +50,7 @@
         "variable": "1",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 1
         },
         "__collapse": false
       },
@@ -71,6 +71,28 @@
         "true": []
       },
       "id": "662f2e24-b04c-494a-8237-dd994f60d23c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "cca34434-a493-4caa-b2a7-d222001c5f4b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "4bd7e4bb-4d78-4c73-afdc-f7ce265df4ac"
     }
   ],
   "playerHit1Script": [],

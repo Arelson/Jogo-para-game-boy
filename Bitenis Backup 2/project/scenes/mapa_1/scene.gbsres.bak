@@ -9,19 +9,19 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [
-    "dmg",
+    "default-bg-3",
     "",
     "19bf1118-3de1-4559-8aca-111a1f7aeb11",
     "default-bg-1",
     "",
     "dmg",
     "",
-    "dmg"
+    "9d2dc5ad-3440-4770-ab54-04f125925f2b"
   ],
   "spritePaletteIds": [
     ""
   ],
-  "collisions": "0016+0f!0012b+0f!0025+",
+  "collisions": "002a+0f!00103+0f!0039+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 104,

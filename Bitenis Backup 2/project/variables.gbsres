@@ -42,6 +42,26 @@
       "id": "5de59adc-ff8e-45d7-9200-16389bb31bb9__L0",
       "name": "MahouAction",
       "symbol": "var_mahouaction_0"
+    },
+    {
+      "id": "86009898-c44f-45c9-8d11-4313cd4c1e98__L2",
+      "name": "PontosKazuo",
+      "symbol": "var_pontoskazuo"
+    },
+    {
+      "id": "2",
+      "name": "PontosMahou",
+      "symbol": "var_pontosmahou"
+    },
+    {
+      "id": "3",
+      "name": "PontosKazuo",
+      "symbol": "var_pontoskazuo_0"
+    },
+    {
+      "id": "4",
+      "name": "KeyCena",
+      "symbol": "var_keycena"
     }
   ]
 }
