@@ -4,11 +4,11 @@
 **Curso:** Engenharia da Computação  
 **Disciplina:** Arquitetura de Computadores  
 **Alunos:**  
-- ANTONIO NETO DE MOURA MELO 
-- ARLISON GASPAR DE OLIVEIRA 
-- EMANOEL DE JESUS NUNES JUNIOR 
-- LUCAS ARAUJO DOMINICI 
-- MATEUS DUTRA VALE   
+- Antonio Neto de Moura Melo 
+- Arlison Gaspar de Oliveira
+- Emanoel de Jesus Nunes Júnior 
+- Lucas Araújo Dominici
+- Mateus Dutra Vale  
 
 **Professor:** Luiz Henrique Neves Rodrigues  
 
@@ -28,14 +28,14 @@ No final do terceiro milênio, Mahou, o Deus Demônio do Submundo, acorda enfure
 
 ## Aspectos Técnicos
 
-- **Plataforma Alvo:** Game Boy Clássico
-- **Linguagem de Desenvolvimento:** C (utilizando GBDK)
-- **Ferramentas:** GB Studio, ZGB, RGBDS, SameBoy (emulador)
+- **Plataforma Alvo:** Game Boy Colour e Game Boy Clássico
+- **Linguagem de Desenvolvimento:** C (utilizando GBDK e GB Studio)
+- **Ferramentas:** GB Studio, ZGB, RGBDS, SameBoy e BGB. 
 - **Conceitos Demonstrados:**
-  - Manipulação direta de memória
+  - Manipulação direta de memória de trabalho e memória de vídeo
   - Controle e utilização de sprites e tiles
   - Implementação de sons e controles de entrada
-  - Operações e acessos de memória específicos do hardware do Game Boy
+  - Operações e acessos de memória específicos do hardware do Game Boy (SM83)
 
 ## Recursos Utilizados
 
@@ -58,10 +58,10 @@ No final do terceiro milênio, Mahou, o Deus Demônio do Submundo, acorda enfure
 
 ## Entregáveis
 
-- ROM (.gb)
-- Código-fonte
-- Manual técnico
-- Relatório final
+- ROM (.gbc e .gb)
+- Código-fonte (Projeto no GB Studio)
+- Guia de jogo
+- Game Design Document (GDD)
 
 ---  
 
